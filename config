@@ -1,0 +1,13 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	logallrefupdates = false
+[remote "remotopruebas"]
+	url = https://github.com/alzamut/repositorio-pruebas.git
+	pushurl = https://github.com/alzamut/repositorio-pruebas.git
+	fetch = refs/notes/*:refs/notes/*
+	push = HEAD:refs/for/master
+[gerrit]
+	createchangeid = true
